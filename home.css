@@ -1,0 +1,20 @@
+header {
+	height:60px;
+	width:100%;
+	border:2px solid red;
+}
+
+#search {
+	height:400px;
+	border:2px solid green;
+}
+
+#quickSearch {
+	height:600px;
+	border:2px solid orange;
+}
+
+footer {
+	height:60px;
+	border:2px solid purple;
+}
