@@ -27,9 +27,9 @@ header {
 }
 
 .social-logo {
-	height: 50px;
+	height: 40px;
 	margin-left: 10px;
-	margin-top: 3%;
+	margin-top: 6%;
 }
 
 /* search css */
@@ -91,8 +91,35 @@ select {
 /* quickSearch css */
 
 #quickSearch {
-	height: 600px;
+	width: 80%;
 	border: 2px solid orange;
+	margin-left: 10%;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+#quickHeading {
+	display: block;
+	font-size: 30px;
+	color: #3b2632;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quickSubHeading {
+	display: block;
+	font-size: 20px;
+	color: gray;
+	line-height: 2;
+}
+
+.tileContainer {
+	width: 30%;
+	height: 180px;
+	border: 2px solid red;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
 }
 
 /* footer css */
