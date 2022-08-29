@@ -43,6 +43,15 @@ header {
 	background-size: 100% 400px;
 }
 
+#logo {
+	height: 150px;
+	width: 150px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 1%;
+}
+
 /* quickSearch css */
 
 #quickSearch {
