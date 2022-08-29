@@ -36,7 +36,7 @@ header {
 
 #search {
 	height: 400px;
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	background-image: url("https://i.ibb.co/TtyBpt6/South-Indian-Food.jpg");
 	background-repeat: no-repeat;
 	/* background-size: cover; */
@@ -48,8 +48,44 @@ header {
 	width: 150px;
 	background-color: #fff;
 	border-radius: 50%;
-	margin: auto;
-	margin-top: 1%;
+	margin-left: 45%;
+	margin-top: 2%;
+	position: absolute;
+	font-size: 90px;
+}
+
+#logo >span {
+	margin-left: 23%;
+	margin-top: 12%;
+	position: absolute;
+}
+
+#heading {
+	font-size: 58px;
+	color: #fff;
+	margin-left: 28%;
+	margin-top: 15%;
+	position: absolute;
+}
+
+#dropdown {
+	width: 50%;
+	/* border: 2px solid white; */
+	height: 40px;
+	margin-left: 27%;
+	margin-top: 22%;
+	position: absolute;
+}
+
+select {
+	font-size: 18px;
+	text-align: center;
+	width: 40%;
+	height: 40px;
+}
+
+#restaurants {
+	width: 59%;
 }
 
 /* quickSearch css */
