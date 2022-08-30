@@ -38,6 +38,35 @@ header {
 	margin-top: 6%;
 }
 
+/* content css */
+#content {
+	width: 80%;
+	height: 600px;
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 2%;
+	/* border: 2px solid red; */
+}
+
+#imgDiv {
+	height: 450px;
+	width: 45%;
+	float: left;
+	border: 8px groove gray;
+}
+
+#imgDiv > img {
+	height: 100%;
+	width: 100%;
+}
+#contentDiv {
+	height: 550px;
+	width: 47%;
+	float: left;
+	margin-left: 5%;
+	border: 2px groove gray;
+}
+
 /* footer css */
 
 footer {

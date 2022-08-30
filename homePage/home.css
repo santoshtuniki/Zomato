@@ -117,7 +117,7 @@ select {
 
 .tileContainer {
 	width: 30%;
-	height: 150px;
+	height: 180px;
 	/* border: 2px solid red; */
 	box-shadow: 10px 20px 15px #3b2632;
 	float: left;
@@ -126,18 +126,18 @@ select {
 }
 
 .tileComponent1 {
-	width: 50%;
-	height: 150px;
+	width: 52%;
+	height: 180px;
 	float: left;
 }
 
 .tileComponent1 >img {
 	width: 100%;
-	height: 150px;
+	height: 180px;
 }
 
 .tileComponent2 {
-	width: 45%;
+	width: 43%;
 	float: left;
 	margin-left: 5%;
 	margin-top: 15%;
