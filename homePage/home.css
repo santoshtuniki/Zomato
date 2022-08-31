@@ -175,3 +175,46 @@ footer {
 .noborder {
 	border: none;
 }
+
+/* media Query */
+@media screen and (max-width:1600px) {
+	body {
+		background-color: lightblue;
+	}
+}
+
+@media screen and (max-width:1400px) {
+	body {
+		background-color: skyblue;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	body {
+		background-color: rgb(198, 255, 172);
+	}
+	.tileContainer {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	body {
+		background-color: rgb(240, 242, 187);
+	}
+}
+
+@media screen and (max-width:800px) {
+	body {
+		background-color: rgb(209, 166, 245);
+	}
+	.tileContainer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	body {
+		background-color: rgb(156, 240, 197);
+	}
+}
