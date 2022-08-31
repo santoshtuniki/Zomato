@@ -107,6 +107,10 @@ select {
 	margin-left: 2%;
 }
 
+#quickHeading:hover {
+	font-size: 40px;
+}
+
 #quickSubHeading {
 	display: block;
 	font-size: 20px;
@@ -117,7 +121,7 @@ select {
 
 .tileContainer {
 	width: 30%;
-	height: 180px;
+	height: 160px;
 	/* border: 2px solid red; */
 	box-shadow: 10px 20px 15px #3b2632;
 	float: left;
@@ -125,15 +129,19 @@ select {
 	margin-left: 2%;
 }
 
+.tileContainer:hover {
+	transform: scale(1.1);
+}
+
 .tileComponent1 {
 	width: 52%;
-	height: 180px;
+	height: 160px;
 	float: left;
 }
 
 .tileComponent1 >img {
 	width: 100%;
-	height: 180px;
+	height: 160px;
 }
 
 .tileComponent2 {
