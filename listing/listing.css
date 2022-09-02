@@ -62,6 +62,20 @@ header {
 	float: left;
 }
 
+#cuisine > span {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.subHeading {
+	text-align: center;
+}
+
+#cost > span {
+	display: block;
+	margin-bottom: 5px;
+}
+
 /* footer css */
 
 footer {
