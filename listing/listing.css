@@ -62,7 +62,7 @@ header {
 	float: left;
 }
 
-#cuisine > span {
+span {
 	display: block;
 	margin-bottom: 5px;
 }
@@ -71,11 +71,10 @@ header {
 	text-align: center;
 }
 
-#cost > span {
-	display: block;
-	margin-bottom: 5px;
+#rname {
+	width: 100%;
+	padding: 1%;
 }
-
 /* footer css */
 
 footer {
