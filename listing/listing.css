@@ -44,7 +44,7 @@ header {
 	display: inline-block;
 	margin-left: 10%;
 	margin-top: 2%;
-	border: 2px solid green;
+	/* border: 2px solid green; */
 }
 
 #filterDiv {
@@ -55,12 +55,14 @@ header {
 }
 
 #contentDiv {
-	height: 800px;
+	height: 1305px;
 	width: 75%;
 	margin-left: 4%;
 	border: 2px solid red;
 	float: left;
 }
+
+/* filterDiv css */
 
 span {
 	display: block;
@@ -75,6 +77,85 @@ span {
 	width: 100%;
 	padding: 1%;
 }
+
+/* contentDiv css */
+.tileContainer {
+	width: 95%;
+	height: 220px;
+	/* margin-top: 10px; */
+	padding: 2%;
+	border: 2px solid blue;
+}
+
+.tileComponent1 {
+	width: 45%;
+	height: 220px;
+	float: left;
+}
+
+.tileComponent1 > img {
+	height: 220px;
+	width: 100%;
+	border-radius: 15px;
+}
+
+.tileComponent2 {
+	width: 50%;
+	height: 220px;
+	float: left;
+	margin-left: 5%;
+}
+
+.componentHeading {
+	margin-top: 2%;
+}
+
+.componentHeading >a {
+	color: rgb(8, 147, 194);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.componentSubHeading {
+	color: #3b2632;
+	margin-top: 4%;
+	font-size: 17px;
+}
+
+.restaurantType {
+	margin-top: 6%;
+}
+
+button {
+	color: #fff;
+	padding: 5px;
+	font-size: 16px;
+	min-width: 20%;
+	margin-top: 1%;
+	margin-right: 8px;
+	border-width: 1px;
+	border-radius: 5px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.primary {
+	background-color: #0d6efd;
+}
+
+.success {
+	background-color: #198754;
+}
+
+.danger {
+	background-color: #dc3545;
+}
+
+.info {
+	background-color: #0dcaf0;
+}
+
+
+
 /* footer css */
 
 footer {
