@@ -4,6 +4,8 @@
 	<head>
 		<title>Home Page</title>
 		<link href="listing.css" rel="stylesheet" type="text/css">
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
@@ -30,88 +32,117 @@
 		<div id="content">
 			<div id="filterDiv">
 				<h2>Filters</h2>
+				<div id="sortBy">
+					<hr />
+					<h2 class="subHeading">Sort by</h2>
+					<span><input type="radio" />Popularity</span>
+					<span><input type="radio" />Rating: High to Low</span>
+					<span><input type="radio" />Cost: Low to High</span>
+					<span><input type="radio" />Cost: High to Low</span>
+					<span><input type="radio" />Distance</span>
+				</div>
 				<div id="cuisine">
-					<h2 class="subHeading">Cuisine Filter</h2>
-					<span><input type="radio" />North Indian</span>
-					<span><input type="radio" />South Indian</span>
+					<h2 class="subHeading">Cuisins</h2>
 					<span><input type="radio" />Chinese</span>
 					<span><input type="radio" />Fast Food</span>
+					<span><input type="radio" />Modern Indian</span>
+					<span><input type="radio" />Mughlai</span>
+					<span><input type="radio" />North Indian</span>
+					<span><input type="radio" />South Indian</span>
 					<span><input type="radio" />Street Food</span>
 				</div>
+				<div id="rating">
+					<h2 class="subHeading">Rating</h2>
+					<span><input type="radio" />Any - 3.5</span>
+					<span><input type="radio" />3.5 - 4.0</span>
+					<span><input type="radio" />4.0 - 4.5</span>
+					<span><input type="radio" />4.5 - 5.0</span>
+				</div>
 				<div id="cost">
-					<h2 class="subHeading">Cost Filter</h2>
+					<h2 class="subHeading">Cost for two</h2>
 					<span><input type="radio" />100 - 300</span>
 					<span><input type="radio" />301 - 600</span>
 					<span><input type="radio" />601 - 1000</span>
-					<span><input type="radio" />1001 - 2000</span>
+					<span><input type="radio" />1001 - 1500</span>
+					<span><input type="radio" />1500 - 2500</span>
+					<span><input type="radio" />Above 2500</span>
+				</div>
+				<div class="filter-btn">
+					<button type="button" class="white">Clear All</button>
+					<button type="button" class="orange">Apply</button>
 				</div>
 			</div>
 			<div id="contentDiv">
 				<input type="search" id="rname" name="rname"  placeholder="Enter Restaurant Name">
+				<p>Results for</p>
+				<p>Number of Results: 5</p>
+
 				<!-- Restaurant1 -->
 				<div class="tileContainer">
 					<div class="tileComponent1">
-						<img src="https://b.zmtcdn.com/data/pictures/chains/3/307893/2738bd3dfa84f54d62587a1f5af1c8fe_o2_featured_v2.jpg" alt="biryani">
+						<img src="https://b.zmtcdn.com/data/pictures/4/2004/cf143d93fcc2e558297441ac25dcbad7.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="Restaurant1">
 					</div>
 					<div class="tileComponent2">
 						<div class="componentHeading">
-							<a href="../details/details.html">Bikkgane Biryani</a>
+							<a href="../details/details.html">Indian Accent</a>
 						</div>
 						<div class="componentSubHeading">
-							<span>Connaught Place, New Delhi</span>
-							<span>Average</span>
-							<span>Rs. 500</span>
+							<span>Near Cgo Complex, Lodhi Road, New Delhi</span>
+							<span>4.9 <span class="fa fa-star checked"></span></span>
+							<span>Rs. 5000 for two</span>
 							<span>
-								<button class="primary">Lunch</button>
+								<button type="button" class="primary">Lunch</button>
 								<button type="button" class="success">Dinner</button>
 							</span>
 						</div>
 						<div class="restaurantType">
 							<button type="button" class="danger">North Indian</button>
-							<button type="button" class="info">South Indian</button>
+							<button type="button" class="info">Modern Indian</button>
 						</div>
 					</div>
 				</div>
+
 				<!-- Restaurant2 -->
 				<div class="tileContainer">
 					<div class="tileComponent1">
-						<img src="https://b.zmtcdn.com/data/pictures/chains/3/307893/2738bd3dfa84f54d62587a1f5af1c8fe_o2_featured_v2.jpg" alt="biryani">
+						<img src="https://b.zmtcdn.com/data/pictures/4/2744/87d86ce0eca11b95cee629155b1b13a4.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="Restaurant2">
 					</div>
 					<div class="tileComponent2">
 						<div class="componentHeading">
-							<a href="../details/details.html">Bikkgane Biryani</a>
+							<a href="../details/details.html">Dum-Pukht - ITC Maurya</a>
 						</div>
 						<div class="componentSubHeading">
-							<span>Connaught Place, New Delhi</span>
-							<span>Average</span>
-							<span>Rs. 500</span>
+							<span>ITC Maurya, Sardar Patel Marg, Chanakyapuri, New Delhi</span>
+							<span>4.9 <span class="fa fa-star checked"></span></span>
+							<span>Rs. 6500 for two</span>
 							<span>
-								<button class="primary">Lunch</button>
+								<button type="button" class="primary">Lunch</button>
 								<button type="button" class="success">Dinner</button>
 							</span>
 						</div>
 						<div class="restaurantType">
 							<button type="button" class="danger">North Indian</button>
-							<button type="button" class="info">South Indian</button>
+							<button type="button" class="info">Mughlai</button>
 						</div>
 					</div>
 				</div>
+
 				<!-- Restaurant3 -->
 				<div class="tileContainer">
 					<div class="tileComponent1">
-						<img src="https://b.zmtcdn.com/data/pictures/chains/3/307893/2738bd3dfa84f54d62587a1f5af1c8fe_o2_featured_v2.jpg" alt="biryani">
+						<img src="https://b.zmtcdn.com/data/reviews_photos/60f/b947479a292d2f5b3a951c7b9102e60f_1501325972.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="Restaurant3">
 					</div>
 					<div class="tileComponent2">
 						<div class="componentHeading">
-							<a href="../details/details.html">Bikkgane Biryani</a>
+							<a href="../details/details.html">Cafe Lota</a>
 						</div>
 						<div class="componentSubHeading">
-							<span>Connaught Place, New Delhi</span>
-							<span>Average</span>
-							<span>Rs. 500</span>
+							<span>National Crafts Museum, Gate 2, Bhairon Marg, Pragati Maidan, New Delhi</span>
+							<span>4.9 <span class="fa fa-star checked"></span></span>
+							<span>Rs. 1200 for two</span>
 							<span>
-								<button class="primary">Lunch</button>
-								<button type="button" class="success">Dinner</button>
+								<button type="button" class="primary">Snacks</button>
+								<button type="button" class="success">Beverages</button>
 							</span>
 						</div>
 						<div class="restaurantType">
@@ -120,54 +151,56 @@
 						</div>
 					</div>
 				</div>
+
 				<!-- Restaurant4 -->
 				<div class="tileContainer">
 					<div class="tileComponent1">
-						<img src="https://b.zmtcdn.com/data/pictures/chains/3/307893/2738bd3dfa84f54d62587a1f5af1c8fe_o2_featured_v2.jpg" alt="biryani">
+						<img src="https://b.zmtcdn.com/data/pictures/3/7843/d547d13ed08b94de4d9d36c5881cf5dd.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="Restaurant4">
 					</div>
 					<div class="tileComponent2">
 						<div class="componentHeading">
-							<a href="../details/details.html">Bikkgane Biryani</a>
+							<a href="../details/details.html">Carnatic Cafe</a>
 						</div>
 						<div class="componentSubHeading">
-							<span>Connaught Place, New Delhi</span>
-							<span>Average</span>
-							<span>Rs. 500</span>
+							<span>84-85, Meharchand Market, Lodhi Road, Near Lodhi Colony, New Delhi</span>
+							<span>4.9 <span class="fa fa-star checked"></span></span>
+							<span>Rs. 650 for two</span>
 							<span>
-								<button class="primary">Lunch</button>
-								<button type="button" class="success">Dinner</button>
+								<button type="button" class="primary">Desserts</button>
+								<button type="button" class="success">Beverages</button>
 							</span>
 						</div>
 						<div class="restaurantType">
-							<button type="button" class="danger">North Indian</button>
-							<button type="button" class="info">South Indian</button>
+							<button type="button" class="danger">South Indian</button>
 						</div>
 					</div>
 				</div>
+
 				<!-- Restaurant5 -->
 				<div class="tileContainer">
 					<div class="tileComponent1">
-						<img src="https://b.zmtcdn.com/data/pictures/chains/3/307893/2738bd3dfa84f54d62587a1f5af1c8fe_o2_featured_v2.jpg" alt="biryani">
+						<img src="https://b.zmtcdn.com/data/pictures/0/18896450/670301766198071c1c22ee84bd0a9697.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="Restaurant5">
 					</div>
 					<div class="tileComponent2">
 						<div class="componentHeading">
-							<a href="../details/details.html">Bikkgane Biryani</a>
+							<a href="../details/details.html">Comorin</a>
 						</div>
 						<div class="componentSubHeading">
-							<span>Connaught Place, New Delhi</span>
-							<span>Average</span>
-							<span>Rs. 500</span>
+							<span>101, 1st Floor, Plaza Level, Two Horizon Center, Golf Course Road, Gurgaon</span>
+							<span>4.8 <span class="fa fa-star checked"></span></span>
+							<span>Rs. 2500 for two</span>
 							<span>
-								<button class="primary">Lunch</button>
-								<button type="button" class="success">Dinner</button>
+								<button type="button" class="primary">Desserts</button>
+								<button type="button" class="success">Beverages</button>
 							</span>
 						</div>
 						<div class="restaurantType">
-							<button type="button" class="danger">North Indian</button>
-							<button type="button" class="info">South Indian</button>
+							<button type="button" class="danger">South Indian</button>
+							<button type="button" class="info">Street Food</button>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 

@@ -48,17 +48,17 @@ header {
 }
 
 #filterDiv {
-	height: 550px;
+	height: 1000px;
 	width: 20%;
 	border: 2px solid gray;
 	float: left;
 }
 
 #contentDiv {
-	height: 1305px;
+	height: 1410px;
 	width: 75%;
 	margin-left: 4%;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	float: left;
 }
 
@@ -78,13 +78,21 @@ span {
 	padding: 1%;
 }
 
+.checked {
+	color: orange;
+}
+
+.filter-btn {
+	float: right;
+}
+
 /* contentDiv css */
 .tileContainer {
 	width: 95%;
 	height: 220px;
-	/* margin-top: 10px; */
+	margin-bottom: 5px;
 	padding: 2%;
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 }
 
 .tileComponent1 {
@@ -103,11 +111,7 @@ span {
 	width: 50%;
 	height: 220px;
 	float: left;
-	margin-left: 5%;
-}
-
-.componentHeading {
-	margin-top: 2%;
+	margin-left: 4%;
 }
 
 .componentHeading >a {
@@ -119,11 +123,11 @@ span {
 .componentSubHeading {
 	color: #3b2632;
 	margin-top: 4%;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .restaurantType {
-	margin-top: 6%;
+	margin-top: 4%;
 }
 
 button {
@@ -135,8 +139,14 @@ button {
 	margin-right: 8px;
 	border-width: 1px;
 	border-radius: 5px;
+	border-color: #fff;
+	cursor: pointer;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+button:hover {
+	transform: scale(1.1);
+} 
 
 .primary {
 	background-color: #0d6efd;
@@ -154,7 +164,14 @@ button {
 	background-color: #0dcaf0;
 }
 
+.orange {
+	background-color: #ef4f5f;
+}
 
+.white {
+	background-color: #fff;
+	color: black;
+}
 
 /* footer css */
 
