@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Home Page</title>
+		<title>Listing Page</title>
 		<link href="listing.css" rel="stylesheet" type="text/css">
 		<!-- Add icon library -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,51 +30,126 @@
 
 		<!-- content section -->
 		<div id="content">
+			<!-- ### filters Div ### -->
 			<div id="filterDiv">
 				<h2>Filters</h2>
+				<!-- *** Sort by ***-->
 				<div id="sortBy">
 					<hr />
 					<h2 class="subHeading">Sort by</h2>
-					<span><input type="radio" />Popularity</span>
-					<span><input type="radio" />Rating: High to Low</span>
-					<span><input type="radio" />Cost: Low to High</span>
-					<span><input type="radio" />Cost: High to Low</span>
-					<span><input type="radio" />Distance</span>
+					<span class="listItem">
+						<input type="radio" />
+						Popularity
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Rating: High to Low
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Cost: Low to High
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Cost: High to Low
+					</span>
 				</div>
+
+				<!-- *** cuisines ***-->
 				<div id="cuisine">
+					<hr />
 					<h2 class="subHeading">Cuisins</h2>
-					<span><input type="radio" />Chinese</span>
-					<span><input type="radio" />Fast Food</span>
-					<span><input type="radio" />Modern Indian</span>
-					<span><input type="radio" />Mughlai</span>
-					<span><input type="radio" />North Indian</span>
-					<span><input type="radio" />South Indian</span>
-					<span><input type="radio" />Street Food</span>
+					<span class="listItem">
+						<input type="radio" />
+						Chinese
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Fast Food
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Modern Indian
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Mughlai
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						North Indian
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						South Indian
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Street Food
+					</span>
 				</div>
+
+				<!-- *** Rating *** -->
 				<div id="rating">
+					<hr />
 					<h2 class="subHeading">Rating</h2>
-					<span><input type="radio" />Any - 3.5</span>
-					<span><input type="radio" />3.5 - 4.0</span>
-					<span><input type="radio" />4.0 - 4.5</span>
-					<span><input type="radio" />4.5 - 5.0</span>
+					<span class="listItem">
+						<input type="radio" />
+						Any - 3.5
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						3.5 - 4.0
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						4.0 - 4.5
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						4.5 - 5.0
+					</span>
 				</div>
+
+				<!-- *** Cost *** -->
 				<div id="cost">
+					<hr />
 					<h2 class="subHeading">Cost for two</h2>
-					<span><input type="radio" />100 - 300</span>
-					<span><input type="radio" />301 - 600</span>
-					<span><input type="radio" />601 - 1000</span>
-					<span><input type="radio" />1001 - 1500</span>
-					<span><input type="radio" />1500 - 2500</span>
-					<span><input type="radio" />Above 2500</span>
+					<span class="listItem">
+						<input type="radio" />
+						100 - 300
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						301 - 600
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						601 - 1000
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						1001 - 1500
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						1500 - 2500
+					</span>
+					<span class="listItem">
+						<input type="radio" />
+						Above 2500
+					</span>
 				</div>
+
+				<!-- *** filter buttons *** -->
 				<div class="filter-btn">
 					<button type="button" class="white">Clear All</button>
 					<button type="button" class="orange">Apply</button>
 				</div>
 			</div>
+
 			<div id="contentDiv">
 				<input type="search" id="rname" name="rname"  placeholder="Enter Restaurant Name">
-				<p>Results for</p>
 				<p>Number of Results: 5</p>
 
 				<!-- Restaurant1 -->

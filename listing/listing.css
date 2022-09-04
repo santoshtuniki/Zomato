@@ -6,130 +6,6 @@ a {
 	text-decoration: none;
 }
 
-/* header css */
-
-header {
-	height: 60px;
-	color: white;
-	/* border: 2px solid red; */
-	background-color: #3b2632;
-}
-
-#brand {
-	float: left;
-	margin-left: 2%;
-	margin-top: 1%;
-	font-size: 35px;
-}
-
-#brand >a {
-	color: #fff;
-	text-decoration: none;
-}
-
-#social {
-	float: right;
-	margin-right: 2%;
-}
-
-.social-logo {
-	height: 40px;
-	margin-left: 10px;
-	margin-top: 6%;
-}
-
-/* content css */
-#content {
-	width: 80%;
-	display: inline-block;
-	margin-left: 10%;
-	margin-top: 2%;
-	/* border: 2px solid green; */
-}
-
-#filterDiv {
-	height: 1000px;
-	width: 20%;
-	border: 2px solid gray;
-	float: left;
-}
-
-#contentDiv {
-	height: 1410px;
-	width: 75%;
-	margin-left: 4%;
-	/* border: 2px solid red; */
-	float: left;
-}
-
-/* filterDiv css */
-
-span {
-	display: block;
-	margin-bottom: 5px;
-}
-
-.subHeading {
-	text-align: center;
-}
-
-#rname {
-	width: 100%;
-	padding: 1%;
-}
-
-.checked {
-	color: orange;
-}
-
-.filter-btn {
-	float: right;
-}
-
-/* contentDiv css */
-.tileContainer {
-	width: 95%;
-	height: 220px;
-	margin-bottom: 5px;
-	padding: 2%;
-	/* border: 2px solid blue; */
-}
-
-.tileComponent1 {
-	width: 45%;
-	height: 220px;
-	float: left;
-}
-
-.tileComponent1 > img {
-	height: 220px;
-	width: 100%;
-	border-radius: 15px;
-}
-
-.tileComponent2 {
-	width: 50%;
-	height: 220px;
-	float: left;
-	margin-left: 4%;
-}
-
-.componentHeading >a {
-	color: rgb(8, 147, 194);
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.componentSubHeading {
-	color: #3b2632;
-	margin-top: 4%;
-	font-size: 16px;
-}
-
-.restaurantType {
-	margin-top: 4%;
-}
-
 button {
 	color: #fff;
 	padding: 5px;
@@ -172,6 +48,138 @@ button:hover {
 	background-color: #fff;
 	color: black;
 }
+
+.checked {
+	color: orange;
+}
+
+/* header css */
+header {
+	height: 60px;
+	color: white;
+	/* border: 2px solid red; */
+	background-color: #3b2632;
+}
+
+#brand {
+	float: left;
+	margin-left: 2%;
+	margin-top: 1%;
+	font-size: 35px;
+}
+
+#brand >a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#social {
+	float: right;
+	margin-right: 2%;
+}
+
+.social-logo {
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 6%;
+}
+
+/* content css */
+#content {
+	width: 80%;
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 2%;
+	/* border: 2px solid green; */
+}
+
+#filterDiv {
+	height: 820px;
+	width: 20%;
+	border-right: 1px solid gray;
+	float: left;
+	cursor: pointer;
+}
+
+#contentDiv {
+	height: 1370px;
+	width: 75%;
+	margin-left: 4%;
+	float: left;
+	cursor: pointer;
+	/* border: 2px solid red; */
+}
+
+/* filterDiv css */
+span {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.subHeading {
+	text-align: center;
+	margin: 2% 0;
+}
+
+
+.filter-btn {
+	float: right;
+}
+
+/* contentDiv css */
+
+#rname {
+	width: 100%;
+	padding: 1%;
+}
+
+.tileContainer {
+	width: 95%;
+	height: 220px;
+	margin-bottom: 5px;
+	padding: 2%;
+	/* border: 2px solid blue; */
+}
+
+.tileContainer:hover {
+	transform: scale(1.1);
+}
+
+.tileComponent1 {
+	width: 45%;
+	height: 220px;
+	float: left;
+}
+
+.tileComponent1 > img {
+	height: 220px;
+	width: 100%;
+	border-radius: 15px;
+}
+
+.tileComponent2 {
+	width: 50%;
+	height: 220px;
+	float: left;
+	margin-left: 4%;
+}
+
+.componentHeading >a {
+	color: rgb(8, 147, 194);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.componentSubHeading {
+	color: #3b2632;
+	margin-top: 4%;
+	font-size: 16px;
+}
+
+.restaurantType {
+	margin-top: 4%;
+}
+
 
 /* footer css */
 
